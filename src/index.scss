@@ -3,8 +3,42 @@
 
 body {
   margin: 0;
-  padding: 0;
+
+  background-color: #222;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  .App{
+    .home{
+      .search-box
+      {
+        text-align: center;
+        input{
+          margin: 0 auto;
+          width: 80%;
+          border-radius: 10px;
+          height: 60px;
+          &:focus{
+            outline: unset;
+          }
+        }
+      }
+      .users{
+        .u-card{
+          margin-bottom: 30px;
+          word-wrap: break-word;
+          padding: 30px 20px;
+          border: 1px solid #04b4e0;
+          transition: .5s;
+          img{
+            border-radius: 50%;
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
 }
+
 
 
